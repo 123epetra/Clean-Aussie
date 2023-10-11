@@ -222,6 +222,7 @@
             # Services Type Carousel
          ===============================================*/
         $('.services-type-carousel').owlCarousel({
+            
             loop: false,
             nav: false,
             margin: 30,

@@ -7,6 +7,7 @@ contactUsForm.addEventListener("submit", function(event){
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,     
       number: document.getElementById("number").value,
+      cleaning_type: document.getElementById("")
     };
     
     const serviceID = "service_20i6z6s";
