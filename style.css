@@ -136,8 +136,13 @@ Sidebar heading:  20px 'Yantramanav', sans-serif
 .white_color{
 	color: white;
 }
+
+.logo{
+	width: 95px;
+	height: auto;
+}
 .custom_logo{
-	color: #194ee0;
+	color: #193a53;
 	font-size: large;
 }
 .custom_logo_footer{
@@ -8323,7 +8328,10 @@ nav.navbar.bootsnav.navbar-transparent.white .attr-nav {
 	}
 
 }
-
+.navbar-brand>img {
+	height: auto !important; 
+	margin: 5px 0 !important;
+ }
 @media (max-width: 1023px) {
 	nav.navbar.bootsnav.navbar-fixed.nav-box.navbar-default.bg-white .right-bar {
 		position: absolute;
@@ -8332,6 +8340,9 @@ nav.navbar.bootsnav.navbar-transparent.white .attr-nav {
 		left: auto;
 		width: auto;
 	}
+/* customize */
+
+	 
 
 	nav.navbar.bootsnav.navbar-fixed.nav-box.navbar-default.bg-white .right-bar .search {
 		display: none;
