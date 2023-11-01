@@ -121,6 +121,7 @@ Sidebar heading:  20px 'Yantramanav', sans-serif
 }
 .custom_email{
 	display: none;
+
 }
 /* custom-title-description */
 .custom-title-description.hover{
@@ -130,6 +131,7 @@ Sidebar heading:  20px 'Yantramanav', sans-serif
 @media (max-width:767px ){
 	.custom_email{
 		display:flex;
+		flex-direction: row;
 
 	}
 }
